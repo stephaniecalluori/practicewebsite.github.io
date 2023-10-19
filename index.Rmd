@@ -22,24 +22,6 @@ How to add links
 
 This is a [link](https://www.google.com/) to search engine.
 
-
-You can also still use R
-
-```{r, message = FALSE}
-library(tidyverse)
-
-plot_df =
-  tibble(
-    x = runif(100),
-    y = 1 + 2 * x + rnorm(100)
-  )
-
-plot_df |> 
-  ggplot(aes(x = x, y = y)) +
-  geom_point()
-
-```
-
 # New section
 
 ![](images/ted.jpg)
