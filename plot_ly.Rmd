@@ -73,7 +73,16 @@ nyc_airbnb |>
 ```
 
 
+Can technically do this but don't - convert ggplot to plotly
+graphic quality is not good
+```{r}
+ggp_scatter = 
+  nyc_airbnb |> 
+  ggplot(aes(x = lat, y = long, color = price)) +
+  geom_point(alpha = .5)
 
+ggplotly(ggp_scatter)
+```
 
 
 

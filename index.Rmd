@@ -31,6 +31,8 @@ Link to the [about](about.html) page.
 #Plotly plots 
 Look here [plotly](plot_ly.html)
 
+This is how to link to another page on the same website
+
 
 
 
