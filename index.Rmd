@@ -28,6 +28,9 @@ This is a [link](https://www.google.com/) to search engine.
 
 Link to the [about](about.html) page.
 
+#Plotly plots 
+Look here [plotly](plot_ly.html)
+
 
 
 
